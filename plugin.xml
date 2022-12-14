@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e107Plugin name="Twilio" lan="" version="1.0" date="2022-12-12" compatibility="2.3.3" installRequired="true" >
+	<author name="e107" url="https://e107.org" />
+	<summary lan="">Add SMS messaging capabilities to your e107 website</summary>
+	<description lan="">This plugin works with e107's notification system and other plugins to allow e107 to send SMS messages through the Twilio API.</description>
+	<keywords>
+		<word>enhancement</word>
+		<word>sms</word>
+		<word>messaging</word>
+		<word>twilio</word>
+		<word>texting</word>
+	</keywords>
+	<category>tools</category>
+	<copyright>GPU</copyright>
+	<adminLinks>
+		<link url="admin_config.php" description="" icon="images/icon_32.png" iconSmall="images/icon_16.png" icon128="images/icon_128.png" primary="true" >LAN_CONFIGURE</link>
+	</adminLinks>
+	<pluginPrefs>
+		<pref name='active'>1</pref>
+		<pref name='apikey'></pref>
+		<pref name='secret'></pref>
+	</pluginPrefs>
+</e107Plugin>
